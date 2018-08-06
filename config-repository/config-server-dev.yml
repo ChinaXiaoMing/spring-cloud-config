@@ -1,3 +1,4 @@
+hello: world
 server:
   port: 8073
 spring:
