@@ -1,3 +1,12 @@
+server:
+  port: 8073
 spring:
   application:
-    name: client
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ChinaXiaoMing/spring-cloud-config
+          search-paths: config-repository
+      label: master
