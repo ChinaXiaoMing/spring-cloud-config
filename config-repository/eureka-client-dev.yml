@@ -1,5 +1,5 @@
 server:
-  port: 8071
+  port: 8075
 spring:
   application:
     name: eureka-client
