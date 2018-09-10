@@ -2,7 +2,7 @@ server:
   port: 8073
 spring:
   application:
-    name: config-client
+    name: config-client-1
 eureka:
   client:
     serviceUrl:
